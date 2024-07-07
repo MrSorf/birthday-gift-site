@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Happy Monkey", system-ui;
     font-weight: 400px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 body{
@@ -37,6 +37,7 @@ html{
     border: 3px solid transparent;
     border-radius: 50%;
     margin: 30px auto 10px auto;
+    height: 190px;
 }
 
  .hero h2, h4{
@@ -75,10 +76,10 @@ padding: 10px;
 
 .gift-img{
     margin: 0 auto;
-    width: 400px;
+    width: 300px;
     border: 5px solid white;
     border-radius: 10px;
-    height: 400px;
+    height: 300px;
     background-image: url(images/gift-cover.JPG);
     background-size: cover;
 }
@@ -95,10 +96,10 @@ padding: 10px;
 
 .charisma{
     margin: 0 auto;
-    width: 400px;
+    width: 300px;
     border: 5px solid white;
     border-radius: 10px;
-    height: 400px;
+    height: 300px;
     background-image: url(images/gift-cover.JPG);
     background-size: cover;
 }
@@ -115,10 +116,10 @@ padding: 10px;
 
 .smart{
     margin: 20px auto;
-    width: 400px;
+    width: 300px;
     border: 5px solid white;
     border-radius: 10px;
-    height: 400px;
+    height: 300px;
     background-image: url(images/gift-cover.JPG);
     background-size: cover;
     
@@ -135,10 +136,10 @@ padding: 10px;
 
 .hot{
     margin: 20px auto;
-    width: 400px;
+    width: 300px;
     border: 5px solid white;
     border-radius: 10px;
-    height: 400px;
+    height: 300px;
     background-image: url(images/gift-cover.JPG);
     background-size: cover;
 }
@@ -154,10 +155,10 @@ padding: 10px;
 
 .cheers-gift{
     margin: 20px auto;
-    width: 500px;
+    width: 300px;
     border: 5px solid white;
     border-radius: 10px;
-    height: 250px;
+    height: 300px;
     background-image: url(images/gift-cover.JPG);
     background-size: cover;
 }
@@ -173,18 +174,21 @@ padding: 10px;
     
 }
 
-footer p{
-    text-shadow: 5px 5px 5px black;  
+.footer p{
+    text-shadow: 5px 5px 5px black; 
+    font-size: 14px; 
+    margin: 0px auto 10px auto;
 }
 
 .link a{
     color: rgb(123, 195, 202);
-    font-size: 20px;
+    font-size: 12px;
     text-shadow: 5px 5px 5px black;  
 }
 
 .link a:hover{
     color: white;
-    background: rgb(229, 90, 90);
-    font-size: 22px;
+    background: rgb(33, 7, 137);
+    font-size: 20px;
+    margin-bottom: 50px;
 }
