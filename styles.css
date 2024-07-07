@@ -20,7 +20,15 @@ html{
 
 /*hero-section*/
 .header h1{
+    font-size: 22px;
+}
+
+#bless{
+    font-weight: bolder;
     font-size: 30px;
+    color:#140b73d3;
+    text-shadow: 0px 0px 20px rgb(25, 16, 205)
+
 }
 
 .hero{
